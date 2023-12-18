@@ -1,0 +1,122 @@
+
+@media (max-width: 640px){
+    .icons{
+        position: absolute;
+        left: 17em;
+
+    }
+    .icons img{
+        width: 2em;
+    }
+
+    .hero ul{
+        display: none;
+    }
+
+    .btn{
+        width: 8em;
+        height: 3em;
+        position: relative;
+        left: 15em;
+        top: 2.6em;
+        font-size: 0.7em;
+    }
+    .logo img{
+        margin-left: 1.5em;
+    }
+    .desc-0 h1{
+        font-size: 2em;
+        position: relative;
+        bottom: 6em;
+        left: 1em;
+        line-height: 1.2em;
+    }
+    .desc-0 h3{
+        line-height: 1.2em;
+        position: relative;
+        bottom: 14em;
+        left: -10px;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .desc-0{
+        position: relative;
+        top: 1.5em;
+    }
+    .card-0 img{
+        position: relative;
+        top: 12em;
+        width: 60%;
+        left: 7em;
+    }
+    .rectangle{
+       display: none;
+    }
+    .play-btn img{
+        position: relative;
+        top: 0.3em;
+        left: 0.2em;
+        width: 35%;
+    }
+    .parent-box{
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+    .section-4{
+        margin-top: 70px;
+    }
+
+
+/* @media (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .hero ul{
+        display: none;
+    }
+    .icons{
+        position: relative;
+        left: 280px;
+        top: 36px;
+    }
+    .logo{
+        position: relative;
+        top: 10px;
+    }
+    .desc-0 h1{
+        font-size: 44px;
+        position: relative;
+        bottom: 150px;
+        left: 120px;
+    }
+    .desc-0 h3{
+        position: relative;
+        bottom: 150px;
+        left: -10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .card-0 img{
+        position: relative;
+        top: 280px;
+        width: 50%;
+        left: 200px;
+    }
+    .style-card{
+        margin-bottom: 50px;
+    }
+    .order-btn, .watch-btn{
+        position: relative;
+        top: 120px ;
+    }
+}    */
+
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 1200px){
+
+} 

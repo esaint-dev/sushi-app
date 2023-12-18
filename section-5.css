@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    border: none;
+    scroll-behavior: smooth;
+}
+
+
+.section-5{
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    
+}
+
+.chef{
+    position: relative;
+    top: 5%;
+}
+
+.back-chef{
+    position: relative;
+    top: 34%;
+    left: 20%;
+}
+
+.back-chef img{
+    position: relative;
+    width: 60%;
+
+}
+
+.chef-img{
+    position: relative;
+    left: 20%;
+    bottom: 40%;
+    
+}
+
+.chef-img img{
+    position: absolute;
+    width: 60%;
+}
+
+.chef-tag{
+    position: absolute;
+    left: 50%;
+    bottom: -2%;
+    fill: #FBFBFB;
+    filter: drop-shadow(26px 22px 51px rgba(0, 0, 0, 0.60));
+
+
+}
+
+.chef-tag h4{
+    position: relative;
+    left: 20%;
+    top: 82px;
+    font-size: 15px;
+}
+
+.sec-5-text{
+    position: relative;
+    left: 8%;
+}
+
+.test-text{
+    width: 500px;
+    position: relative;
+    left: 5%;
+    top: 20%;
+}
+
+.test-text h4{
+    color: #F63B3B;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.test-text h3{
+    color: #000;
+    font-size: 33px;
+    margin-top: 20px;
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    
+}
+.right h3{
+    color: #555;
+    font-size: 15px;
+    margin-top: 20px;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.customer{
+   display: flex;
+   position: relative;
+   top: 32%;    
+}
+
+.customer-img-ii{
+    position: relative;
+    right: 40px;
+}
+.customer-img-iii{
+    position: relative;
+    right: 80px;
+}
+
+.customer img{
+    width: 70%;
+    border-radius: 50%;
+    background-color: rgb(236, 194, 141);
+    border: var(--white-color) solid 3px;
+}
+.cus-text{
+    position: relative;
+    right: 50px;
+    bottom: 15px;
+}
+
+.cus-text h3{
+    color: #555;
+    font-size: 15px;
+    margin-top: 20px;
+    position: relative;
+    font-weight: 600;
+    left: -20px;
+    line-height: 20px;
+
+}
+
+.cus-text h5{
+    position: relative;
+    color: #555;
+    font-weight: 500;
+    
+}
+
+.cus-text svg{
+    position: relative;
+    left: -20px;
+    top: -20px;
+    
+}

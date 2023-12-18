@@ -1,0 +1,110 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.1/feather.min.js);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    border: none;
+}
+:root{
+    --white-color: #FFFFFF;
+    --green-color: #39DB4A;
+    --gray-color: #555555;
+    --lightgreen-color: #5FE26C;
+    --deep-yellow: #FFE605;
+    --red-color:#F63B3B;
+    --green-other:#36CC45;
+    --light-light:#90BD95;
+    --deep-gray:#484848;
+    --black-color: #000000;
+}
+
+
+.hero{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+
+.logo img {
+    width: 110px;
+    padding: 10px 15px;
+    margin: 25px 60px;
+    cursor: pointer;
+}
+
+.hero ul{
+    position: relative;
+    display: flex;
+    padding: 30px;
+    left: 12%;
+    
+   
+}
+
+li{
+    list-style: none;
+    padding: 5px 18px;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+li img{
+    display: flex;
+    position: relative;
+    bottom: 23px;
+    left: 95%;
+}
+
+.icons{
+    padding: 10px;
+    position: absolute;
+    top: 3.5%;
+    left: 72%;
+    
+}
+
+.icons img{
+    position: relative;
+    padding: 5px;
+    
+    
+}
+
+
+.btn{
+    position: absolute;
+    display: flex;
+    top: 4.5%;
+    left: 80%;
+    height: 38px;
+    width: 8rem;
+    background-color: var(--green-other);
+    border: none;
+    border-radius: 25px;
+    
+}
+
+.btn img{
+    position: relative;
+    width: 15px;
+    top: 2%;
+    left: 10%;
+    
+}
+
+.btn h3{
+    color: var(--white-color);
+    font-weight: bold;
+    position: relative;
+    left: 15%;
+    top: 20%;
+}
